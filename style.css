@@ -18,7 +18,7 @@
 
     /* ----------flex-direction---------- */
     /* flex-direction: row; デフォルト*/
-    flex-direction: row-reverse;
+    flex-direction: column;
 }
 
 body {
