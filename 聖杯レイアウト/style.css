@@ -19,3 +19,8 @@ div {
     /* nav,main,asideを横並び */
     display: flex;
 }
+
+main {
+    /* mainを横いっぱいに広げる */
+    flex: 1;
+}
