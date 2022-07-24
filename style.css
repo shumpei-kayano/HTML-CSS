@@ -17,7 +17,7 @@
     /* ----------justify-content:水平方向の揃え---------- */
     /* justify-content: flex-start; 初期値 */
     /* 均等割付け１ */
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 body {
