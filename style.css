@@ -1,0 +1,18 @@
+.item {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid ;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    /* height: 100vm; */
+}
