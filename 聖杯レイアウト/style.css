@@ -1,6 +1,12 @@
 body {
     background-color: aquamarine;
     margin: 0;
+    /* 最低の高さを設定 こうすることにより溢れがなくなる */
+    min-height: 100vh;
+    /* divを画面の高さにするために親要素にdisplay:flex */
+    display: flex;
+    /* 横並びになってしまったのでflex-directionで縦に設定 */
+    flex-direction: column;
 }
 
 header {
@@ -19,6 +25,8 @@ footer {
 div {
     /* nav,main,asideを横並び */
     display: flex;
+    /* 画面の高さいっぱいに広げる */
+    flex: 1;
 }
 
 main {
