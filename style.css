@@ -7,9 +7,13 @@
 }
 
 .container {
+    /* 画面の高さを設定 */
     height: 100vh;
+    /* 親要素にdisplay:flex */
     display: flex;
+    /* flexコンテナ要素に対して上下中央 */
     align-items: center;
+    /* flexコンテナ要素に対して左右中央 */
     justify-content: center;
 }
 
