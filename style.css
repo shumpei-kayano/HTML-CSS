@@ -15,6 +15,10 @@
     align-items: center;
     /* flexコンテナ要素に対して左右中央 */
     justify-content: center;
+
+    /* ----------flex-direction---------- */
+    /* flex-direction: row; デフォルト*/
+    flex-direction: row-reverse;
 }
 
 body {
