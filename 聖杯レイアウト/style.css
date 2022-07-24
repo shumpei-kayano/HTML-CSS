@@ -1,0 +1,16 @@
+body {
+    background-color: aquamarine;
+    margin: 0;
+}
+
+header {
+    border: 1px solid;
+}
+
+div nav,main,aside{
+    border: 1px solid;
+}
+
+footer {
+    border:1px solid;
+}
