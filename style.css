@@ -13,12 +13,11 @@
     display: flex;
     /* flexコンテナ要素に対して上下中央 */
     align-items: center;
-    /* flexコンテナ要素に対して左右中央 */
-    justify-content: center;
 
-    /* ----------flex-wrap:子要素の繰り返し---------- */
-    /* flex-wrap: nowrap; 初期値 */
-    flex-wrap: wrap;
+    /* ----------justify-content:水平方向の揃え---------- */
+    /* justify-content: flex-start; 初期値 */
+    /* 中央揃え */
+    justify-content: center;
 }
 
 body {
