@@ -14,3 +14,8 @@ div nav,main,aside{
 footer {
     border:1px solid;
 }
+
+div {
+    /* nav,main,asideを横並び */
+    display: flex;
+}
