@@ -16,8 +16,8 @@
 
     /* ----------align-items:垂直方向の揃え---------- */
     /* align-items: stretch; 初期値*/
-    /* 上揃え */
-    align-items: flex-start;
+    /* 下揃え */
+    align-items: flex-end;
 
 body {
     /* height: 100vm; */
