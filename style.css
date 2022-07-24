@@ -16,8 +16,8 @@
 
     /* ----------justify-content:水平方向の揃え---------- */
     /* justify-content: flex-start; 初期値 */
-    /* 中央揃え */
-    justify-content: flex-end;
+    /* 均等割付け１ */
+    justify-content: space-between;
 }
 
 body {
