@@ -11,14 +11,13 @@
     height: 100vh;
     /* 親要素にdisplay:flex */
     display: flex;
-    /* flexコンテナ要素に対して上下中央 */
-    align-items: center;
+    /* flexコンテナに対して左右中央揃え */
+    justify-content: center;
 
-    /* ----------justify-content:水平方向の揃え---------- */
-    /* justify-content: flex-start; 初期値 */
-    /* 均等割付け１ */
-    justify-content: space-around;
-}
+    /* ----------align-items:垂直方向の揃え---------- */
+    /* align-items: stretch; 初期値*/
+    /* 上揃え */
+    align-items: flex-start;
 
 body {
     /* height: 100vm; */
