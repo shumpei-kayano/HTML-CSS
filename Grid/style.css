@@ -5,9 +5,26 @@ body {
     /* 固定幅に設定 中央揃え*/
     width: 800px;
     margin: 0 auto;
+    /* 親要素にdisplay:gridを設定 */
+    display: grid;
+    /* grid-templateで聖杯レイアウトを設定
+    好きな名前をつけてもOK 
+    後に指定する数字はheight
+    1frを設定すると引き伸ばせる
+    1frが２つあると二等分
+    1frと2frにすると1/3と2/3に分けられる
+    /以降がwidthの設定
+    */
+    grid-template:
+        "header header header" 150px
+        "left   center right" 1fr
+        "footer footer footer" 200px
+        / 150px 1fr 200px;
 }
 
 header {
+    /* 子要素にgrid-areaを設定 */
+    grid-area: header;
     border: 1px solid;
 }
 
@@ -16,16 +33,20 @@ nav,main,aside{
 }
 
 main {
+    grid-area: center;
 }
 
 nav {
+    grid-area: left;
 }
 
 aside {
+    grid-area: right;
 }
 
 footer {
     border:1px solid;
+    grid-area: footer;
 }
 
 /* 横幅が900px以下になった場合 */
