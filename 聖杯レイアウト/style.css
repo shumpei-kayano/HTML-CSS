@@ -62,4 +62,8 @@ footer {
     nav, aside {
         width: 100%;
     }
+    /* mainをnavの上に持ってくる */
+    main {
+        order: -1;
+    }
 }
