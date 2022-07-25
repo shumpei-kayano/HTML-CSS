@@ -47,3 +47,19 @@ aside {
 footer {
     height: 200px;
 }
+
+/* 横幅が900px以下になった場合 */
+@media screen and (max-width:800px){
+    /* bodyのwidthを上書き */
+    body {
+        width: 100%;
+    }
+    /* 縦並びにする */
+    div {
+        flex-direction: column;
+    }
+    /* navとasideも画面幅に設定 */
+    nav, aside {
+        width: 100%;
+    }
+}
