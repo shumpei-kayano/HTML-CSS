@@ -16,13 +16,14 @@ body {
     /以降がwidthの設定
     */
     grid-template:
-        "header header header" 150px
-        "left   center right" 1fr
-        "footer footer footer" 200px
-        / 150px 1fr 200px;
-    /* 要素間に隙間を開ける */
-    gap:10px;
+        "header header header header header" 150px
+        "...... ...... ...... ...... ......" 10px
+        "left   ...... center ...... right" 1fr
+        "...... ...... ...... ...... ......" 10px
+        "footer footer footer footer footer" 200px
+        / 150px 10px minmax(300px, 1fr) 10px 200px;
 }
+/* minmaxで幅の最小値と最大値の設定 */
 
 header {
     /* 子要素にgrid-areaを設定 */
