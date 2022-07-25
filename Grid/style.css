@@ -50,6 +50,13 @@ footer {
 }
 
 /* 横幅が900px以下になった場合 */
-@media screen and (max-width:800px){
-
+@media screen and (max-width:900px){
+    body {
+        grid-template:
+        "header" 150px
+        "center" 1fr
+        "left"
+        "right"
+        "footer" 200px;
+    }
 }
