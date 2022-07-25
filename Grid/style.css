@@ -1,0 +1,34 @@
+body {
+    background-color: aquamarine;
+    /* 最低の高さを設定 こうすることにより溢れがなくなる */
+    min-height: 100vh;
+    /* 固定幅に設定 中央揃え*/
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    border: 1px solid;
+}
+
+nav,main,aside{
+    border: 1px solid;
+}
+
+main {
+}
+
+nav {
+}
+
+aside {
+}
+
+footer {
+    border:1px solid;
+}
+
+/* 横幅が900px以下になった場合 */
+@media screen and (max-width:800px){
+
+}
